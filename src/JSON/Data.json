@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is the difference between HTML and HTML5?"
+  },
+  {
+    "id": 2,
+    "question": "Explain the difference between CSS and CSS3."
+  },
+  {
+    "id": 3,
+    "question": "What is the difference between inline, internal, and external CSS?"
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between GET and POST methods in HTTP?"
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of JavaScript in web development?"
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between frontend and backend development?"
+  },
+  {
+    "id": 7,
+    "question": "What is a responsive website?"
+  },
+  {
+    "id": 8,
+    "question": "What is the role of a web server?"
+  },
+  {
+    "id": 9,
+    "question": "What is the difference between SQL and NoSQL databases?"
+  },
+  {
+    "id": 10,
+    "question": "What is an API and why is it used in web development?"
+  }
+]

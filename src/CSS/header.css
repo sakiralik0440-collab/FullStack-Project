@@ -1,0 +1,100 @@
+/* ===== HEADER ===== */
+.header{
+  background: #f5f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 150px 40px; /* default spacing for desktop */
+}
+
+/* ===== CONTENT ===== */
+.header-content{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===== TITLE ===== */
+.header-title{
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+  background: linear-gradient(90deg,#ff6a00,#ee0979,#3a86ff,#00c9a7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== SUBTITLE ===== */
+.header-subtitle{
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Remove default spacing */
+h1,p{
+  margin-top: 0;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px){
+  .header{
+    padding: 120px 30px;
+  }
+
+  .header-title{
+    font-size: 34px;
+  }
+
+  .header-subtitle{
+    font-size: 16px;
+  }
+}
+
+/* Small Tablets / Large Phones (max-width: 768px) */
+@media (max-width: 768px){
+  .header{
+    padding: 100px 20px;
+  }
+
+  .header-title{
+    font-size: 30px;
+  }
+
+  .header-subtitle{
+    font-size: 15px;
+  }
+}
+
+/* Mobile Phones (max-width: 480px) */
+@media (max-width: 480px){
+  .header{
+    padding: 80px 15px;
+  }
+
+  .header-title{
+    font-size: 26px;
+  }
+
+  .header-subtitle{
+    font-size: 14px;
+  }
+}
+
+/* Extra Small Phones (max-width: 360px) */
+@media (max-width: 360px){
+  .header{
+    padding: 70px 10px;
+  }
+
+  .header-title{
+    font-size: 22px;
+  }
+
+  .header-subtitle{
+    font-size: 13px;
+  }
+}

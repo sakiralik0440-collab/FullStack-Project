@@ -1,0 +1,124 @@
+/* ================= MY RESULTS CONTAINER ================= */
+.my-results {
+  max-width: 900px;
+  margin: 100px auto; /* space for fixed navbar */
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.my-results h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Table wrapper for horizontal scroll */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* Table styling */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* ensures scroll on very small screens */
+}
+
+.results-table th,
+.results-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+}
+
+.results-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.results-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.results-table tbody tr:hover {
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}
+
+/* ================= RESPONSIVE STYLES ================= */
+
+/* Tablets and small devices */
+@media (max-width: 1024px) {
+  .my-results {
+    margin: 90px 20px;
+    padding: 25px;
+  }
+
+  .results-table th,
+  .results-table td {
+    font-size: 15px;
+    padding: 11px 12px;
+  }
+}
+
+/* Small devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .my-results {
+    margin: 80px 15px;
+    padding: 20px;
+  }
+
+  .results-table th,
+  .results-table td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Extra small devices / phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .my-results h2 {
+    font-size: 22px;
+  }
+
+  .results-table th,
+  .results-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .results-table {
+    min-width: 500px; /* allow horizontal scroll */
+  }
+}
+
+/* Very small phones / extra narrow screens (max-width: 360px) */
+@media (max-width: 360px) {
+  .my-results {
+    margin: 70px 10px;
+    padding: 15px;
+  }
+
+  .my-results h2 {
+    font-size: 20px;
+  }
+
+  .results-table th,
+  .results-table td {
+    font-size: 11px;
+    padding: 6px 8px;
+  }
+
+  .results-table {
+    min-width: 450px; /* keep horizontal scroll functional */
+  }
+}
